@@ -56,3 +56,11 @@ Results for task 3:
 | 1 - Multimodal ResNet Ensemble | 0.346 | 0.249 |
 | 2 - Linear SVM + SelectKBest | 0.308 | 0.229 |
 | 3 - Late-Fusion (ResNet + SVM, 50/50) | 0.346 | 0.258 |
+
+## Exact command to reproduce results
+
+To reproduce the results in this repository:
+1. Clone the repository locally
+2. Create a folder called data in the root of the repository and add the 4 databases
+3. Create an environment in anaconda following the commands in the requirements.txt
+4. Execute the notebooks for task 1, task 2 and task 3. Each notebook contains the training and evaluation code for the models tested in each task
