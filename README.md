@@ -57,7 +57,7 @@ Results for task 3:
 | 2 - Linear SVM + SelectKBest | 0.308 | 0.229 |
 | 3 - Late-Fusion (ResNet + SVM, 50/50) | 0.346 | 0.258 |
 
-## Exact command to reproduce results
+## Exact commands to reproduce results
 
 To reproduce the results in this repository:
 1. Clone the repository locally
