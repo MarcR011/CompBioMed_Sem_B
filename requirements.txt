@@ -1,0 +1,9 @@
+To execute the files we used an anaconda environment like this one:
+
+
+conda create -n ecg_env python=3.10 -y
+conda activate ecg_env
+pip install torch==2.0.1+cpu --index-url https://download.pytorch.org/whl/cpu
+pip install ipykernel
+pip install pandas scipy scikit-learn matplotlib seaborn xgboost numba scikit-image shap sak
+pip install numpy==1.26.4
