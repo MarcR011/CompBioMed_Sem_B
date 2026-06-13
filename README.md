@@ -61,6 +61,6 @@ Results for task 3:
 
 To reproduce the results in this repository:
 1. Clone the repository locally
-2. Create a folder called data in the root of the repository and add the 4 databases (QRS_CARTO2.mat, QRS_Database2.mat, QRS_Sims2.mat and teknon_clinical.pkl)
+2. Create a folder called data in the root of the repository and add the 4 databases (QRS_CARTO2.mat, QRS_Database2.mat, QRS_Sims2.mat and full_data_corrected_2024.pkl)
 3. Create an environment in anaconda following the commands in the requirements.txt
 4. Execute the notebooks for task 1, task 2 and task 3 using the environment created. Each notebook contains the training and evaluation code for the models tested in each task
