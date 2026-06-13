@@ -4,8 +4,6 @@ Idiopathic ventricular arrhythmias originating in the cardiac outflow tracts (OT
 The standard non-invasive tool for SOO inference is the 12-lead surface ECG, particularly the R/S transition across the precordial leads V1–V6. The most widely used clinical scoring system is the Hybrid Score proposed by Penela et al. [2], which combines clinical variables (sex, hypertension, age) with the precordial transition lead to produce a binary LVOT vs RVOT prediction. Reported accuracies for rule-based methods are in the range of 65–75%.
 Recent work has applied machine learning to this problem. Notably, Bocanegra-Pérez et al. reported an F1-score of approximately 0.84 for binary classification using a convolutional architecture on a 43-patient cohort augmented by external datasets. Saglietto et al. demonstrated the broader applicability of lightweight CNNs for ECG analysis. These results motivate the use of deep learning, but multiclass extensions, distinguishing finer anatomical sublocations,  remain underexplored and structurally limited by the small size of clinical OTVA cohorts, a limitation explicitly identified by Doste et al. [5].
 Our best models achieve F1 = 0.842 (Task 1), 0.726 (Task 2), and 0.258 (Task 3) on the held-out test set, with cross-validation gaps that confirm honest generalization. 
-## Table of Results
-The document only contains images (PNG files), not actual Word tables. The "tables" are screenshots or images embedded in the document. Let me extract those images so I can read their content visually.The tables were stored as images, but I can read them clearly. Here they are in markdown:
 
 ## Results Tables
 
